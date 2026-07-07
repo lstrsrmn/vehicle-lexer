@@ -3,7 +3,7 @@ from pygments.token import *
 
 class VehicleLexer(RegexLexer):
     name = "Vehicle-lang"
-    aliases=["vehicle-lang", "vcl"]
+    aliases=["vehicle-lang", "vehicle", "vcl"]
     filenames = [".vcl"]
 
     tokens = {
